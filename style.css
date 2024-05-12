@@ -10,5 +10,49 @@ body {
     height: 20vh;
     background-image: url(assets/images/image-omelette.jpeg);
     background-size: cover;
-    background-repeat: no-repeat;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+    margin: auto;
+}
+
+h2 {
+    color: saddlebrown;
+}
+
+li {
+    padding: 8px;
+}
+
+#preparacao {
+    background-color: rgb(217, 194, 238);
+    border-radius: 10px;
+}
+
+#preparacao h2 {
+    padding-left: 20px;
+    color: rgb(118, 19, 211);
+}
+
+#instrucao ul {
+    list-style-type: decimal;
+}
+
+#nutricao {
+    display: flex;
+    flex-direction: row;
+}
+
+.nutricao {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+
+#nutricao2 {
+    color: saddlebrown;
+    font-weight: bolder;
 }
