@@ -12,7 +12,7 @@ body {
     background-position: center;
 }
 
-#container {
+#container2 {
     display: flex;
     flex-direction: column;
     font-size: 19px;
@@ -65,9 +65,19 @@ li {
 @media (min-width: 1200px) {
 
     body {
-        height: 200px;
         background-color: wheat;
+    }
 
+    #ovo {
+        display: flex;
+        margin: auto;
+        width: 400px;
+    }
+
+    #container {        
+        margin: auto;
+        width: 400px;
+        background-color: white;
     }
 
 }
