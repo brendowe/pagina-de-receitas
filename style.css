@@ -12,12 +12,14 @@ body {
     background-position: center;
 }
 
+
 #container2 {
     display: flex;
     flex-direction: column;
     font-size: 19px;
     padding: 20px;
     width: 82%;
+    margin: auto;
 }
 
 h1 {
@@ -71,6 +73,7 @@ li {
 
     #ovo {
         border-radius: 20px;
+        height: 300px;
     }
 
     #container {
@@ -80,6 +83,9 @@ li {
         margin: auto;
         background-color: white;;
         padding: 20px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        border-radius: 20px;
     }
 
     #container2 {
