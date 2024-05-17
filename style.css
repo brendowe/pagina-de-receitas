@@ -17,6 +17,7 @@ body {
     flex-direction: column;
     font-size: 19px;
     padding: 20px;
+    width: 82%;
 }
 
 h1 {
