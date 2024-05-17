@@ -70,15 +70,21 @@ li {
     }
 
     #ovo {
-        display: flex;
-        margin: auto;
-        width: 400px;
+        border-radius: 20px;
     }
 
-    #container {        
+    #container {
+        display: flex;
+        flex-direction: column;
+        width: 600px;
         margin: auto;
-        width: 400px;
-        background-color: white;
+        background-color: white;;
+        padding: 20px;
+    }
+
+    #container2 {
+        margin: auto;
+        
     }
 
 }
