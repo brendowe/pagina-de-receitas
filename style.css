@@ -6,7 +6,7 @@ body {
 }
 
 #ovo {
-    width: 100vw;
+    flex-direction: column;
     height: 220px;
     background-image: url(assets/images/image-omelette.jpeg);
     background-size: cover;
@@ -16,9 +16,16 @@ body {
 #container {
     display: flex;
     flex-direction: column;
-    width: 80vw;
+    font-size: 19px;
+}
+
+#container2 {
+    display: flex;
+    flex-direction: column;
     margin: auto;
     font-size: 19px;
+    width: 80vw;
+    
 }
 
 h1 {
@@ -61,4 +68,26 @@ li {
 #nutricao2 {
     color: saddlebrown;
     font-weight: bolder;
+}
+
+
+@media (min-width: 1200px) {
+
+    body {
+        background-color: wheat;
+
+    }
+
+    #ovo {
+        width: 400px;
+        margin: auto;
+    }
+
+    #container {
+        width: 400px;
+        background-color: white;
+        padding: 25px;
+        margin-top: 10px;
+    }
+
 }
