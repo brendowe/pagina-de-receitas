@@ -6,7 +6,6 @@ body {
 }
 
 #ovo {
-    flex-direction: column;
     height: 220px;
     background-image: url(assets/images/image-omelette.jpeg);
     background-size: cover;
@@ -17,15 +16,7 @@ body {
     display: flex;
     flex-direction: column;
     font-size: 19px;
-}
-
-#container2 {
-    display: flex;
-    flex-direction: column;
-    margin: auto;
-    font-size: 19px;
-    width: 80vw;
-    
+    padding: 20px;
 }
 
 h1 {
@@ -74,20 +65,9 @@ li {
 @media (min-width: 1200px) {
 
     body {
+        height: 200px;
         background-color: wheat;
 
-    }
-
-    #ovo {
-        width: 400px;
-        margin: auto;
-    }
-
-    #container {
-        width: 400px;
-        background-color: white;
-        padding: 25px;
-        margin-top: 10px;
     }
 
 }
